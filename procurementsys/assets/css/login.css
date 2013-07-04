@@ -1,0 +1,182 @@
+#header {
+	height: 100px;
+	margin-top: -30px;
+	background: #e3e3e3;
+	padding-top: 30px;
+	background-image: -moz-linear-gradient(330deg, white, white 30%, black);
+	background-image: -webkit-gradient(linear, 0% 100%, 100% 0%, from(white), color-stop(28%, white),to(black));
+       box-shadow: 4px 4px 4px #666;
+/*	border: 1px solid #e3e3e3;*/
+}
+
+h1 {
+	color: #000;
+	letter-spacing: 0px;
+	
+}
+
+@font-face {
+	font-family: audiowide;
+	src: local('audiowide'), url('../fonts/audiowide.ttf') format('truetype');
+}
+@font-face {
+	font-family: Chunk;
+	src: local('ChunkFive'), url('../fonts/chunk/Chunkfive-webfont.ttf') format('truetype');
+}
+
+h1.small {
+	font-family: audiowide;
+	font-size: 40px;
+       text-align: center;
+       text-shadow: 0px 1px 0 white;
+}
+.headersmall{
+    font-family: Chunk;
+    font-size: 30px;
+  }
+ .pheader{
+      color: #317eac; 
+      font-size: 20px;
+      font-weight: bold;
+      line-height: none;
+  }
+
+/******login page images********/
+.image{
+/*        border: 1px solid red;*/
+	width: 90px;
+	height: 90px;
+	background-image: url(img/portfolio.png);
+	background-repeat: no-repeat;
+	background-position: 95% 25%;
+	background-size: 100%, 100%;
+       float: left;
+       margin-right: 20px;
+       margin-top: -8px;
+}
+
+.image1{
+/*        border: 1px solid red;*/
+	width: 90px;
+	height: 90px;
+	background-image: url(img/contact.png);
+	background-repeat: no-repeat;
+	background-position: 95% 25%;
+	background-size: 100%, 100%;
+        float: left;
+        margin-right: 20px;
+        margin-top: -9px;
+}
+
+.image2{
+/*        border: 1px solid red;*/
+	width: 90px;
+	height: 90px;
+	background-image: url(img/calendar.png);
+	background-repeat: no-repeat;
+	background-position: 95% 25%;
+	background-size: 100%, 100%;
+       float: left;
+       margin-right: 20px;
+       margin-top: -13px;
+}
+/*************************/
+
+
+#container{
+    margin: 0 auto;
+    margin-top: 80px;
+    margin-left: 90px;
+   
+}
+/**generic classes for overriding bootstrap**/
+
+/**login form**/
+#form_login{
+/*    border: 1px solid black;*/
+    width: 28%; 
+    float: left;
+}
+
+.loginForm{
+    margin-top: 28px;
+    padding-top: 20px; 
+    padding-bottom: 20px; 
+    background-color: #f0f2f3;
+    border: 1px solid #c8cfd5;
+/*     box-shadow: -4px -4px 3px #666;*/
+}
+
+fieldset{
+    margin-left: 50px;
+}
+.loginFormLabel{
+    margin-bottom: 30px;
+    font-size: 20px;
+    font-weight: 100;
+    text-shadow: 0px 1px 0 white; 
+}
+.float{
+    font-weight: bold;
+/*    float: left;
+    margin-right: 4px;
+    padding-top: 5px;
+    margin-bottom: 20px;*/
+}
+.space{
+    margin-bottom: 20px;
+}
+.borderForm{
+    border: 1px solid red;
+}
+input[type="text"], input[type="password"] {
+    height: 25px;
+    width: 70%;
+}
+/*****************/
+/**************************************************/
+
+#info{
+/*    border: 1px solid blue;*/
+    width: 50%;
+    float: right;
+    margin-right: 7%;
+}
+.infoBlock{
+    margin-bottom: 10px;
+    height: 100px;
+}
+.marginTop{
+    margin-top: 15px;
+}
+
+.clearboth{
+    clear: both;
+}
+
+.tb-header-custom {
+    background-color: hsl(0, 0%, 89%) !important; 
+    background-repeat: repeat-x; 
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#fcfcfc", endColorstr="#e2e2e2");
+    background-image: -khtml-gradient(linear, left top, left bottom, from(#fcfcfc), to(#e2e2e2));
+    background-image: -moz-linear-gradient(top, #fcfcfc, #e2e2e2);
+    background-image: -ms-linear-gradient(top, #fcfcfc, #e2e2e2); 
+    background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #fcfcfc), color-stop(100%, #e2e2e2)); 
+    background-image: -webkit-linear-gradient(top, #fcfcfc, #e2e2e2); 
+    background-image: -o-linear-gradient(top, #fcfcfc, #e2e2e2); 
+    background-image: linear-gradient(#fcfcfc, #e2e2e2); 
+    border-color: #d3d3d3 #d3d3d3 hsl(0, 0%, 86.5%); 
+    color: #333 !important; 
+/*    text-shadow: 0 1px 1px rgba(255, 255, 255, 0.16);*/
+    -webkit-font-smoothing: antialiased; 
+}
+
+/*#footer{
+    position: fixed;
+    bottom: 0;
+    left:0;
+    right: 0;
+    text-align: center;
+
+    padding-top: 5px;
+}*/
