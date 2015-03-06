@@ -1,7 +1,8 @@
 ##PROCUREMENT SYS 
 ### Version
 0.01
->Not sure whether there'll be another version though
+
+>Not sure whether there'll be another version though.
 
 ######Demo of the project is found at: http://procurementsys-gmanguru.rhcloud.com/
 - For the user pages Username and Password is "demo"
