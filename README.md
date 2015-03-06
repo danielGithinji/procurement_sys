@@ -8,8 +8,9 @@ Demo of the project is found at: http://procurementsys-gmanguru.rhcloud.com/
 Username and Password is "demo".
 Username and Password for the admin section is: "admin".
 
+If the project takes more time than expected to load in the browser, give it a minute and once it loads it will run smoothly.
 
-
+If you would like to download and install the project for yourself please follow the instructions below.
 
 ---INSTALLATION---
 
