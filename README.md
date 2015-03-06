@@ -8,7 +8,9 @@
 - For the user pages Username and Password is "demo"
 - For the admin section Username and Password is: "admin".
 
-
+######If the demo system takes more time to load in the browser than unexpected, give it a minute. Once the system loads it'll run smoothly as you continue testing it.
+# 
+# 
 
 
 ###Tech
