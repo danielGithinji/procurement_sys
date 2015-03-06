@@ -4,6 +4,12 @@
 Am not sure whether there will be another version of this system, however it was made using
 the codeigniter php framework.
 
+Demo of the project is found at: http://procurementsys-gmanguru.rhcloud.com/
+Username and Password is "demo".
+Username and Password for the admin section is: "admin".
+
+
+
 
 ---INSTALLATION---
 
